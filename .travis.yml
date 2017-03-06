@@ -10,16 +10,16 @@ script:
   - pushd src/Build && bash ./Build.sh --mono && popd
 addons:
   apt:
-    packages:
-    - build-essential
-    - wget
-    - perl
-    - texinfo
-    - make
-    - flex
-    - bison
-    - nasm
-    - genisoimage
-    - libgmp-dev
-    - libmpc-dev
-    - libmpfr-dev
+  packages:
+  - build-essential
+  - wget
+  - perl
+  - texinfo
+  - make
+  - flex
+  - bison
+  - nasm
+  - genisoimage
+  - libgmp-dev
+  - libmpc-dev
+  - libmpfr-dev
